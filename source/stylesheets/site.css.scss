@@ -1,24 +1,72 @@
+@import "bootstrap";
+@import "home";
+@import "menu";
+@import "chef";
+@import "contact";
+@import "variables";
+
 body {
-  background-color: #fbc547;
-  color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
-  text-align: center;
+  padding-top: 100px;
 }
 
-a {
-  color: rgba(#000, 0.7);
+footer {
+  background-color: $brand-primary;
+  margin-top:       2rem;
+  padding-top:      1rem;
+  color:            white;
+  .footer-copyright {
+    background-color: rgba(0,0,0,.2);
 
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
+  }
+  .py-3 {
+    padding-bottom: 2rem!important;
+    padding-top:    2rem!important;
+  }
+  a {
+    color: white;
+    img {
+      width: 15%;
+    }
+  }
+  .logo {
+    img {
+      width: 70%;  
+    }
   }
 }
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
+.padded {
+  padding-top:    2em;
+  padding-bottom: 2em;
+}
+
+.padding-top {
+  padding-top: 2em;
+}
+
+.padding-bottom {
+  padding-bottom: 2em;
+}
+
+.banner-gradient {
+  background-color: lighten(#786854, 50%);
+}
+
+.line {
+  position:   relative;
+  display:    block;
+  width:      100px;
+  height:     4px;
+  margin:     20px auto 20px;
+  background: $brand-secondary;
+}
+
+.bg-color-beige {
+  background-color: lighten(#786854, 50%)
+}
+
+.page-footer {
+  img {
+    margin: 1em;
+  }
 }
