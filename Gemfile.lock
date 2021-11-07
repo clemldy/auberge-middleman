@@ -39,7 +39,7 @@ GEM
     dotenv (2.7.6)
     erubi (1.10.0)
     erubis (2.7.0)
-    execjs (2.8.1)
+    execjs (2.7.0)
     fast_blank (1.0.1)
     fastimage (2.2.5)
     ffi (1.15.4)
