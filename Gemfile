@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'middleman', '~> 4.3'
+gem 'middleman-deploy'
 gem 'middleman-gh-pages'
 gem 'middleman-autoprefixer'
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby, :x64_mingw]
